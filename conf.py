@@ -20,3 +20,10 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_theme = 'alabaster'  # or whatever theme you're using
+
+templates_path = ['_templates']  # already usually present
+
+html_context = {
+    'meta_tag': '<meta name="msvalidate.01" content="FF8C76044EE58DBA322585596FD8260D" />'
+}
